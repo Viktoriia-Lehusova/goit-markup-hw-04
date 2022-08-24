@@ -221,11 +221,21 @@ img {
   margin-bottom: 30px;
 }
 .hero {
-  background-color: var(--footer-color);
   text-align: center;
 
   padding-top: 200px;
   padding-bottom: 200px;
+}
+.overlay {
+  min-height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/overlay.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #c4c4c4;
 }
 
 /* features */
