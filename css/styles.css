@@ -361,8 +361,9 @@ img {
   border-radius: 50%;
   width: 44px;
   height: 44px;
+  color: #afb1b8;
   background-color: var(--background-color);
-  fill: #afb1b8;
+  fill: currentColor;
   align-items: center;
 }
 .team-container .item:not(:last-child) {
@@ -385,8 +386,9 @@ img {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  color: #afb1b8;
   background-color: var(--background-color);
-  fill: #afb1b8;
+  fill: currentColor;
   align-items: center;
 }
 .clients .item:not(:last-child) {
@@ -427,6 +429,12 @@ img {
 .portfolio-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
+.portfolio-link:hover,
+.portfolio-link:focus {
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .portfolio-text {
   color: var(--secondary-text-color);
   font-size: 16px;
@@ -439,6 +447,8 @@ img {
   border-bottom: 1px solid #eeeeee;
 }
 .portfolio-subtitle {
+  color: var(--main-text-color);
+
   letter-spacing: 0.06em;
   font-weight: 700;
   font-size: 18px;
@@ -515,8 +525,9 @@ img {
   border-radius: 50%;
   width: 44px;
   height: 44px;
+  color: var(--background-color);
   background-color: rgba(255, 255, 255, 0.1);
-  fill: var(--background-color);
+  fill: currentColor;
   align-items: center;
 }
 .footer-join .item:not(:last-child) {
@@ -525,5 +536,5 @@ img {
 .join-link:hover,
 .join-link:focus {
   background-color: var(--accent-color);
-  fill: var(--background-color);
+  fill: currentColor;
 }
