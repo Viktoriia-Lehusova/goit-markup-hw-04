@@ -68,6 +68,9 @@ img {
 .link {
   text-decoration: none;
 }
+.svg {
+  fill: currentColor;
+}
 /* logo */
 .logo {
   color: var(--main-text-color);
@@ -242,9 +245,8 @@ img {
 
   padding-top: 200px;
   padding-bottom: 200px;
-}
-.overlay {
-  min-height: 600px;
+
+  height: 600px;
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -253,6 +255,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #c4c4c4;
+  background-size: cover;
 }
 
 /* features */
@@ -363,9 +366,9 @@ img {
   height: 44px;
   color: #afb1b8;
   background-color: var(--background-color);
-  fill: currentColor;
   align-items: center;
 }
+
 .team-container .item:not(:last-child) {
   margin-right: 10px;
 }
@@ -389,7 +392,6 @@ img {
   border-radius: 4px;
   color: #afb1b8;
   background-color: var(--background-color);
-  fill: currentColor;
   align-items: center;
 }
 .clients .item:not(:last-child) {
@@ -436,7 +438,7 @@ img {
 }
 .portfolio-link:focus,
 .portfolio-link:hover {
-  border: 1px solid #eeeeee;
+  /* border: 1px solid #eeeeee; */
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -480,8 +482,8 @@ img {
   line-height: 1.71;
   text-decoration: none;
   font-style: normal;
-
-  display: block;
+}
+.adress-container {
   margin-right: 70px;
 }
 .adress-item:not(:last-child) {
@@ -532,7 +534,6 @@ img {
   height: 44px;
   color: var(--background-color);
   background-color: rgba(255, 255, 255, 0.1);
-  fill: currentColor;
   align-items: center;
 }
 .footer-join .item:not(:last-child) {
@@ -541,5 +542,4 @@ img {
 .join-link:hover,
 .join-link:focus {
   background-color: var(--accent-color);
-  fill: currentColor;
 }
